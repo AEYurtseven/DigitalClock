@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(grey,black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headerTop{
+  font-family: "Times New Roman";
+  font-weight: 900;
+}
+
+.clock{
+  font-family: "Times New Roman";
+  font-weight: 900;
+  font-size: 125px;
+}
+
+.date{
+  font-family: "Times New Roman";
+  font-weight: 900;
+  font-size: 55px;
+  position: relative;
+  top: 25px;
+}
+
+.militaryTime{
+  position: relative;
+  top: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
